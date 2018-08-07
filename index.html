@@ -5,12 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>fireMessage</title>
+    <title>Zander's CHATBOT</title>
 
     <!--Go to https://console.firebase.google.com-->
     <!--Sign in and add a project "fireMessage"-->
     <!--PASTE SNIPPET HERE-->
 
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <script>
+  // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDuuD6WCCXrQSgDa3iKzqfGZScSHaoEy6U",
+            authDomain: "firemessage-953e6.firebaseapp.com",
+            databaseURL: "https://firemessage-953e6.firebaseio.com",
+            projectId: "firemessage-953e6",
+            storageBucket: "",
+            messagingSenderId: "324183003249"
+    };
+    firebase.initializeApp(config);
+</script>
 
 
     <!--custom files-->
@@ -20,7 +33,7 @@
 <body>
 
     <!--Add your name-->
-    <h1>Bob's Messaging App</h1>
+    <h1>Zander's Messaging App</h1>
 
     <!--This div will be populated with messages-->
     <div class="allMessages">
